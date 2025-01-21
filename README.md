@@ -50,7 +50,7 @@ ng test
 ###  You can hirez a person from different location near by is more prefered 
 This system can include the following components:
 
-User Registration:
+##  User Registration:
 
 Domestic workers can register on the platform by providing essential details such as name, education, experience, and skills.
 Search Functionality:
@@ -58,15 +58,15 @@ Search Functionality:
 Employers can search for workers using criteria such as job type (e.g., cooking, cleaning, childcare, etc.), experience, and location.
 Rating and Reviews:
 
-Employers and workers can rate and review each other after completing tasks, helping build trust.
+--  Employers and workers can rate and review each other after completing tasks, helping build trust.
 Messaging:
 
-The system can include a communication feature where employers and workers can easily interact before hiring.
+--  The system can include a communication feature where employers and workers can easily interact before hiring.
 Payment System:
 
-A payment system to facilitate transactions, including monthly salaries and other benefits, can be integrated.
+--  A payment system to facilitate transactions, including monthly salaries and other benefits, can be integrated.
 Contract and Agreements:
 
-The system can provide options for creating employment contracts between workers and employers.
+--  The system can provide options for creating employment contracts between workers and employers.
 
 
