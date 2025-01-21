@@ -1,4 +1,4 @@
-# AngularBasic
+# Care Assist Web Application
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
 
@@ -45,5 +45,5 @@ ng test
 ```
 
 ## Running Angular Project on any browser 
-### This project is intended to help home activity ,small work that require more assist from other jobless person
-### You can hirez a person from different location near by is more prefered 
+###  This project is intended to help home activity ,small work that require more assist from other jobless person
+###  You can hirez a person from different location near by is more prefered 
