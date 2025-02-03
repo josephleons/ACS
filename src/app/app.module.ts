@@ -6,20 +6,18 @@ import { AppComponent } from './app.component';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { UserComponent } from './user/user.component';
-import { FromComponent } from './from/from.component';
-import { CreateAccountComponent } from './user/create-account/create-account.component';
-import { UserListComponent } from './user/user-list/user-list.component';
-import { ProfileComponent } from './user/profile/profile.component';
 import { FindComponent } from './home/find/find.component';
 import { NavComponent } from './inc/nav/nav.component';
-import { TrypostComponent } from './trypost/trypost.component';
+import { TopnavComponent } from './inc/topnav/topnav.component';
+import { FooterComponent } from './footer/footer.component';
+import { NewsComponent } from './news/news.component';
+import { AdminNewsComponent } from './news/admin-news/admin-news.component';
 
 // Define the routes
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'try-post', component: TrypostComponent },
-  { path: 'user', component: UserComponent }, // Default route
+  { path: 'news', component: NewsComponent }, // Default route
+  { path: 'adminnews', component: AdminNewsComponent }, // Default route
  // Default route
 ];
 
@@ -27,14 +25,12 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     HomeComponent,
-    UserComponent,
-    FromComponent,
-    CreateAccountComponent,
-    UserListComponent,
-    ProfileComponent,
     FindComponent,
     NavComponent,
-    TrypostComponent, // Declare your components here
+    TopnavComponent,
+    FooterComponent,
+    NewsComponent,
+    AdminNewsComponent,
   ],
   imports: [
     BrowserModule,

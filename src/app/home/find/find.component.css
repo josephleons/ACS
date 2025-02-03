@@ -1,3 +1,19 @@
 .button-color{
     background-color: #0089ba;
 }
+p{
+   font-family:system-ui;
+}
+.card{
+    border-radius: 10px;
+    width: 400px;  /* Fixed width */
+    height: 400px; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 2px solid #0089ba;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row pt-5">
+        <!-- NEWS LIST  -->
+        <div class="col-lg-10 col-md-12 col-sm-12">
+            <div class="card border-0 shadow-sm mb-3" *ngFor="let news of allNews">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        {{news.title ?? 'No Title'}}
+                        <span class="badge bg-warning text-white ms-2">News</span>
+                    </h5>
+                    <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                        ratione repellat perspiciatis aut aliquid! Neque exercitationem voluptatibus officiis quam dolor
+                        accusamus sit at cum, ipsa quaerat nobis eaque? Maxime, quae.</p>
+                </div>
+                <div class="card-footer bg-white border-0 d-flex justify-content-between">
+                    <span class="text-muted"><strong>Posted Date•</strong>{{news.datetime}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-8 col-sm-12">
+            <div class="card border-0 shadow-sm mb-3" *ngFor="let news of allNews">
+                <div class="card-header text-white" style="background-color: #0089ba;">
+                    News
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        To Our Client
+                        <span class="badge bg-warning text-white ms-2">News</span>
+                    </h5>
+                    <p class="card-text text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                        ratione repellat perspiciatis aut aliquid! Neque exercitationem voluptatibus officiis quam dolor
+                        accusamus sit at cum, ipsa quaerat nobis eaque? Maxime, quae.</p>
+                </div>
+                <div>
+                    <hr>
+                </div>
+                <div class="card-footer bg-white border-0 d-flex justify-content-between">
+                    <span class="text-muted">{{news.datetime ?? 'No Date'}}</span>
+                    <a href="#" class="btn btn-outline-default btn-sm button-color">Read</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

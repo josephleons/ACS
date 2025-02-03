@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FromComponent } from './from.component';
+import { TopnavComponent } from './topnav.component';
 
-describe('FromComponent', () => {
-  let component: FromComponent;
-  let fixture: ComponentFixture<FromComponent>;
+describe('TopnavComponent', () => {
+  let component: TopnavComponent;
+  let fixture: ComponentFixture<TopnavComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [FromComponent]
+      declarations: [TopnavComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FromComponent);
+    fixture = TestBed.createComponent(TopnavComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
