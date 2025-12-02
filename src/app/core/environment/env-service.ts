@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 
 export class EnvService {
-    private readonly base = 'http://172.16.10.200:2026/api';
+    private readonly base = 'http://172.16.10.102:2026/api';
 
     get apiBase(): string {
         return this.base;
